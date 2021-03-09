@@ -20,7 +20,7 @@ button{
     font-weight: bold;
     margin: 0 15px 0 0 ;
 }
-/* -----------------------------FACEBOOK buttons------------------------- */
+/* ==================================FACEBOOK buttons================================== */
 /* ----------------Facebook dark mode button styles */
 .facebook-btn{
     border-radius: 2px;
@@ -58,9 +58,86 @@ button{
     background-color: #d8dade;
     border-color: #d8dade;
 }
-
-
 /* ---x-Facebook light mode button styles -x-*/
 
-/* ------------------------FACEBOOK buttons---------------------------- */
+/* ==========================X============FACEBOOK buttons=====================X======================== */
 
+
+
+/*==================================The 3 D Buttons =====================================================*/
+/* -------------------3D button1--------------------------- */
+.three-D-btn-1{
+    position: relative;
+    background-image: linear-gradient(to right,#240b36,#c31432) ;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    font-size: 1.4rem;
+    box-shadow: -6px 6px 0 #13051d;
+    outline: none;
+}
+.three-D-btn-1:hover{
+    background-image: linear-gradient(to right,#341050,#eb1236);
+}
+.three-D-btn-1:active{
+    background-color: linear-gradient(to right,#341050,#eb1236);
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 #13051d;
+}
+
+/* ---------x--------3D button1-----------------------x---- */
+/* -------------------3D button2 circle--------------------------- */
+.three-D-circle{
+    position: relative; 
+
+    background-image:radial-gradient(#ff0084,#33001b) ;
+    background-image:-o-radial-gradient(#ff0084,#33001b) ;
+    background-image:-moz-radial-gradient(#ff0084,#33001b) ;
+    background-image:-webkit-radial-gradient(#ff0084,#33001b) ;
+
+    font-size: 1.4rem;
+    text-shadow: 0 -1px #ee027c;
+    color: white;
+    border: solid 1px #690139;
+    border-radius: 100%;
+    height: 120px;
+    width: 120px;
+    z-index: 4;
+    outline: none;
+
+    box-shadow: inset 0 1px 0 #5c0132,
+                0 2px 0 #4b0128,
+                0 3px 0 #38001e,
+                0 4px 0 #220012,
+                0 5px 0 #16000c,
+                0 6px 0 #110009,
+                0 7px 0 #070004,
+                0 8px 0 #050003,
+                0 9px 0 #030002ea
+}
+
+.three-D-circle:hover{
+    background-image:radial-gradient(#fd389e,#410023) ;
+    background-image:-o-radial-gradient(#fd389e,#410023) ;
+    background-image:-moz-radial-gradient(#fd389e,#410023) ;
+    background-image:-webkit-radial-gradient(#fd389e,#410023) ;
+}
+
+.three-D-circle:active{
+    box-shadow: inset 0 1px 0 #5c0132,
+                0 2px 0 #4b0128,
+                0 3px 0 #38001e,
+                0 4px 0 #220012,
+                0 5px 0 #16000c,
+                0 6px 0 #110009,
+                0 7px 0 #070004;
+    top: 2px;
+                
+}
+
+/* -------------------3D button2 circle--------------------------- */
+
+
+
+/*======================X=====================The 3 D Buttons ==============X==================================
