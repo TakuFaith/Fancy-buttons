@@ -1,6 +1,6 @@
 body{
-    background-color: palevioletred;
-    color: white;
+    background-image: linear-gradient(to right,#fda8b5,#aadbfa);
+    color: rgb(56, 0, 56);
     justify-content: space-around;
 }
 h1{
@@ -11,7 +11,7 @@ h4{
     font-size: 18px;
 }
 #btn-card{
-    background-color: white;
+    background-color: #e7eef1;
     color: rgba(0, 0, 0, 0.87);
 }
 
@@ -136,8 +136,40 @@ button{
                 
 }
 
-/* -------------------3D button2 circle--------------------------- */
+/* -------------x-----3D button2 circle-----------x--------------- */
+
+/*======================X=====================The 3 D Buttons ==============X==================================*/
+
+/* ==================================GRADIENT BORDERED buttons================================== */
+/* -------------------gradient-borders-btn-1--------------------------- */
+.gradient-borders-btn-1{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background-color: #e7eef1;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to bottom left,#ffc500,#c21500);
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+.gradient-borders-btn-1:hover{
+    background-image:linear-gradient(to bottom left,#ffc500,#c21500);
+    color: white;
+}
+
+/* -----------x-------gradient-borders-btn-1-------------x------------- */
+
+
+/* -------------------gradient-borders-btn-2--------------------------- */
+
+
+/* -----------x-------gradient-borders-btn-2-------------x------------- */
 
 
 
-/*======================X=====================The 3 D Buttons ==============X==================================
+/* ====================X=============GRADIENT BORDERED buttons================X================= */
+
