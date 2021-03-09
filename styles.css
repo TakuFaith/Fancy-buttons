@@ -151,13 +151,13 @@ button{
     box-sizing: border-box;
     background-color: #e7eef1;
     border: solid 10px transparent;
-    border-image: linear-gradient(to bottom left,#ffc500,#c21500);
+    border-image: linear-gradient(to bottom left,#ffc500,#FF512F,#c21500);
     border-image-slice: 1;
     color: orangered;
     transition: all 0.3s ease-in-out;
 }
 .gradient-borders-btn-1:hover{
-    background-image:linear-gradient(to bottom left,#ffc500,#c21500);
+    background-image:linear-gradient(to bottom left,#ffc500,#FF512F,#c21500);
     color: white;
 }
 
@@ -165,8 +165,25 @@ button{
 
 
 /* -------------------gradient-borders-btn-2--------------------------- */
-
-
+.gradient-borders-btn-2{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    background-color: #e7eef1;
+    border: solid 6px transparent;
+    border-image: linear-gradient(to right,#c21500,#FF512F,#ffc500,transparent);
+    border-image-slice: 1;
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+}
+.gradient-borders-btn-2:hover{
+    background-image:linear-gradient(to right,#c21500,#FF512F,#ffc500,transparent);
+    color: white;
+    border-style: none;
+}
 /* -----------x-------gradient-borders-btn-2-------------x------------- */
 
 
