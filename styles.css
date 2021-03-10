@@ -242,6 +242,13 @@ button{
     transition: all ease 0.3s;
     opacity: 0;
 }
+.animated-btn-2:hover{
+    padding: 20px 60px 20px 20px;
+}
+.animated-btn-2:hover::after{
+    right: 1.2rem;
+    opacity: 1;
+}
 
 /* ----------X--------animated-btn-2-----------------X--------- */
 
