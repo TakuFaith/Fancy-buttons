@@ -305,6 +305,51 @@ button{
 }
 
 /* ----------X--------toggle-switch-btn-1-----------------X--------- */
+/* ------------------toggle-switch-btn-2-------------------------- */
+.toggle-2{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+.toggle-2-input{
+    display: none;
+}
+.toggle-2-button{
+    position: relative;
+    display:inline-block;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(138, 137, 137);
+    border: solid 1px #ccc;
+    padding: 5px 10px 5px 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-emphasis: center;
+}
+.toggle-2-button::before{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(138, 137, 137);
+    content: '';
+    transition: all 0.3s ease;
+    border-radius: 100%;
+}
+.toggle-2-input:checked + .toggle-2-button::before{
+    background-color: white;    
+}
+.toggle-2-input:checked + .toggle-2-button{
+    background-color: rgb(4, 165, 4);
+    border: solid 1px rgb(34, 136, 3);
+    color: white;
+}
+/* ----------X--------toggle-switch-btn-1-----------------X--------- */
 
 
 
