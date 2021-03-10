@@ -3,6 +3,7 @@ body{
     color: rgb(56, 0, 56);
     justify-content: space-around;
 }
+
 h1{
     font-family: cursive;
 }
@@ -186,7 +187,67 @@ button{
 }
 /* -----------x-------gradient-borders-btn-2-------------x------------- */
 
-
-
 /* ====================X=============GRADIENT BORDERED buttons================X================= */
+
+/* ==================================ANIMATED buttons================================== */
+
+/* ------------------animated-btn-1-------------------------- */
+.animated-btn-1{
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 2px 2px 0 #000;
+
+	background: linear-gradient(to top left, #ee7752, #e73c7e, #23a6d5, #23a6d5,#23d5ab,#23d5ab);
+}
+
+.animated-btn-1:hover {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* -----------x-------animated-btn-1-------------x------------- */
+
+/* ------------------animated-btn-2-------------------------- */
+.animated-btn-2{
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 0 2px 0 #000;
+
+    background:#018dc0;
+    border: solid 1px #555;
+}
+.animated-btn-2::after{
+    position: absolute;
+    top: 30%;
+    right: 0.6rem;
+    content: '»';
+    transition: all ease 0.3s;
+    opacity: 0;
+}
+
+/* ----------X--------animated-btn-2-----------------X--------- */
+
+
+
+/* ======================X===========ANIMATED buttons===============X================== */
+
+
 
