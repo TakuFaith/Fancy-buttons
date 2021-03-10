@@ -256,5 +256,58 @@ button{
 
 /* ======================X===========ANIMATED buttons===============X================== */
 
+/* ==================================TOGGLE buttons================================== */
+/* ------------------toggle-switch-btn-1-------------------------- */
+.toggle-1{
+    font-family: sans-serif;
+    display: inline;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+}
+
+.toggle-1-input{
+    display: none;
+}
+.toggle-1-button{
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: rgb(253, 10, 10);
+    border: solid 1px  rgb(168, 1, 1);
+    color: white;
+    width: 80px;
+    height: 38px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.toggle-1-button::before{
+    position: absolute;
+    left: 40px;
+    top: 8px;
+    content: 'OFF';
+    display: inline-block;
+    height: 20px;
+    padding:0 3px ;
+    background:white;
+    color: rgb(253, 10, 10);
+    transition: all 0.3s ease;
+}
+.toggle-1-input:checked + .toggle-1-button{
+    background-color: rgb(2, 141, 2);
+    border: solid 1px rgb(1, 88, 1);
+}
+.toggle-1-input:checked + .toggle-1-button::before{
+    left: 5px;
+    content: 'ON';
+    color: green;
+}
+
+/* ----------X--------toggle-switch-btn-1-----------------X--------- */
+
+
+
+/* =====================X=============TOGGLE buttons===========X======================= */
 
 
